@@ -1,0 +1,22 @@
+{
+  "name": "inngest-chapter-01",
+  "version": "1.0.0",
+  "description": "Basic Inngest setup for Chapter 1 of the Inngest book",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts",
+    "inngest": "npx inngest-cli@latest dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inngest": "^3.49.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.7",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
